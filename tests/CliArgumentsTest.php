@@ -1,12 +1,12 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\cli\CliArguments;
+use onOffice\Api\Client\Gui\cli\CliArguments;
 
 /**
  * Class CliArgumentsTest
  *
- * @covers \jr\ooapi\cli\CliArguments
+ * @covers \onOffice\Api\Client\Gui\cli\CliArguments
  */
 
 class CliArgumentsTest extends TestCase

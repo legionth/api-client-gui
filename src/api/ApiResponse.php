@@ -1,13 +1,11 @@
 <?php
 
-namespace jr\ooapi\api;
+namespace onOffice\Api\Client\Gui\api;
 
 /**
  * Class ApiResponse
  *
  * parse api-response (json) and provides access to status-values / results
- *
- * @package jr\ooapi
  */
 
 class ApiResponse

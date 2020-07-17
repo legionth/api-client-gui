@@ -1,20 +1,20 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\api\Hmac;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
-use jr\ooapi\dataObjects\Credentials;
-use jr\ooapi\dataObjects\Resource;
-use jr\ooapi\dataObjects\Action;
-use jr\ooapi\dataObjects\Request;
+use onOffice\Api\Client\Gui\api\Hmac;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
+use onOffice\Api\Client\Gui\dataObjects\Resource;
+use onOffice\Api\Client\Gui\dataObjects\Action;
+use onOffice\Api\Client\Gui\dataObjects\Request;
 
 /**
- * @covers \jr\ooapi\api\Hmac
- * @uses \jr\ooapi\dataObjects\Resource
- * @uses \jr\ooapi\dataObjects\Action
- * @uses \jr\ooapi\dataObjects\Credentials
- * @uses \jr\ooapi\dataObjects\RequestWithAuthInfos
- * @uses \jr\ooapi\dataObjects\Request
+ * @covers \onOffice\Api\Client\Gui\api\Hmac
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Resource
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Action
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Credentials
+ * @uses \onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Request
  */
 
 class HmacTest extends TestCase

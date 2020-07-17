@@ -1,15 +1,15 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\DataFactory;
-use jr\ooapi\dataObjects\Action;
-use jr\ooapi\dataObjects\Resource;
-use jr\ooapi\api\JsonParseException;
+use onOffice\Api\Client\Gui\DataFactory;
+use onOffice\Api\Client\Gui\dataObjects\Action;
+use onOffice\Api\Client\Gui\dataObjects\Resource;
+use onOffice\Api\Client\Gui\Api\JsonParseException;
 
 /**
- * @covers \jr\ooapi\DataFactory
- * @uses \jr\ooapi\dataObjects\Action
- * @uses \jr\ooapi\dataObjects\Resource
+ * @covers \onOffice\Api\Client\Gui\DataFactory
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Action
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Resource
  */
 
 class DataFactoryTest extends TestCase

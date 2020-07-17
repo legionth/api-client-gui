@@ -1,13 +1,12 @@
 <?php
 
-namespace jr\ooapi\dataObjects;
+namespace onOffice\Api\Client\Gui\dataObjects;
 
 /**
  * Class RequestValues
  *
  * data-object for api-request-values
  *
- * @package jr\ooapi\dataObjects
  */
 
 class RequestWithAuthInfos

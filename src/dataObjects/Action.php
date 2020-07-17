@@ -1,13 +1,11 @@
 <?php
 
-namespace jr\ooapi\dataObjects;
+namespace onOffice\Api\Client\Gui\dataObjects;
 
 /**
  * Class Action
  *
  * data-object for json-action-tag
- *
- * @package jr\ooapi\dataObjects
  */
 
 class Action

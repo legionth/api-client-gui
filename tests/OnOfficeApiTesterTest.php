@@ -1,16 +1,16 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\OnOfficeApiTester;
-use jr\ooapi\api\ApiResponse;
-use jr\ooapi\dataObjects\Credentials;
-use jr\ooapi\api\ApiRequest;
+use onOffice\Api\Client\Gui\OnOfficeApiTester;
+use onOffice\Api\Client\Gui\api\ApiResponse;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
+use onOffice\Api\Client\Gui\api\ApiRequest;
 
 /**
  * Class OnOfficeApiTesterTest
  *
- * @covers \jr\ooapi\OnOfficeApiTester
- * @uses \jr\ooapi\Config
+ * @covers \onOffice\Api\Client\Gui\OnOfficeApiTester
+ * @uses \onOffice\Api\Client\Gui\Config
  *
  */
 

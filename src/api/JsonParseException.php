@@ -1,10 +1,9 @@
 <?php
 
-namespace jr\ooapi\api;
+namespace onOffice\Api\Client\Gui\api;
 
 /**
  * Class JsonParseException
- * @package jr\ooapi
  */
 
 class JsonParseException extends \Exception

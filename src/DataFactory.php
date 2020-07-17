@@ -1,17 +1,16 @@
 <?php
 
-namespace jr\ooapi;
-use jr\ooapi\dataObjects\Action;
-use jr\ooapi\dataObjects\Resource;
-use jr\ooapi\api\JsonParseException;
-use jr\ooapi\dataObjects\Request;
+namespace onOffice\Api\Client\Gui;
+use onOffice\Api\Client\Gui\dataObjects\Action;
+use onOffice\Api\Client\Gui\dataObjects\Resource;
+use onOffice\Api\Client\Gui\api\JsonParseException;
+use onOffice\Api\Client\Gui\dataObjects\Request;
 
 /**
  * Class DataFactory
  *
  * create data-objects from json-string
  *
- * @package jr\ooapi
  */
 
 class DataFactory

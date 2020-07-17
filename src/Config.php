@@ -1,6 +1,6 @@
 <?php
 
-namespace jr\ooapi;
+namespace onOffice\Api\Client\Gui;
 
 /**
  * Class Config
@@ -10,7 +10,6 @@ namespace jr\ooapi;
  * * credential-directory
  *
  * @see config/ooapi.ini
- * @package jr\ooapi
  */
 
 class Config

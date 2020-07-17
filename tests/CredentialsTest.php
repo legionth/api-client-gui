@@ -1,10 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\dataObjects\Credentials;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
 
 /**
- * @covers \jr\ooapi\dataObjects\Credentials
+ * @covers \onOffice\Api\Client\Gui\dataObjects\Credentials
  */
 
 class CredentialsTest extends TestCase

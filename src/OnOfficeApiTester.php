@@ -1,17 +1,15 @@
 <?php
 
-namespace jr\ooapi;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
-use jr\ooapi\api\ApiRequest;
-use jr\ooapi\api\ApiResponse;
-use jr\ooapi\dataObjects\Credentials;
+namespace onOffice\Api\Client\Gui;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
+use onOffice\Api\Client\Gui\api\ApiRequest;
+use onOffice\Api\Client\Gui\api\ApiResponse;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
 
 /**
  * Class OnOfficeApiTester
  *
  * main-class / "business logic"
- *
- * @package jr\ooapi
  */
 
 class OnOfficeApiTester

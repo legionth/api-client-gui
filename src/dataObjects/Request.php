@@ -1,13 +1,11 @@
 <?php
 
-namespace jr\ooapi\dataObjects;
+namespace onOffice\Api\Client\Gui\dataObjects;
 
 /**
  * Class Request
  *
  * data-object for all request-data
- *
- * @package jr\ooapi\dataObjects
  *
  */
 

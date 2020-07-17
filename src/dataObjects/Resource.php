@@ -1,13 +1,12 @@
 <?php
 
-namespace jr\ooapi\dataObjects;
+namespace onOffice\Api\Client\Gui\dataObjects;
 
 /**
  * Class Resource
  *
  * data-object for json-resource-tag
  *
- * @package jr\ooapi\dataObjects
  */
 
 class Resource

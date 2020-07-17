@@ -1,10 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\Config;
+use onOffice\Api\Client\Gui\Config;
 
 /**
- * @covers \jr\ooapi\Config
+ * @covers \onOffice\Api\Client\Gui\Config
  */
 
 class ConfigTest extends TestCase

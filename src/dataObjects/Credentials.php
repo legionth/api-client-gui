@@ -1,13 +1,12 @@
 <?php
 
-namespace jr\ooapi\dataObjects;
+namespace onOffice\Api\Client\Gui\dataObjects;
 
 /**
  * Class Credentials
  *
  * data-object for api-credentials (token / secret)
  *
- * @package jr\ooapi\dataObjects
  */
 
 class Credentials

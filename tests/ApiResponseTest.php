@@ -1,10 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\api\ApiResponse;
+use onOffice\Api\Client\Gui\api\ApiResponse;
 
 /**
- * @covers \jr\ooapi\api\ApiResponse
+ * @covers \onOffice\Api\Client\Gui\api\ApiResponse
  */
 
 class ApiResponseTest extends TestCase

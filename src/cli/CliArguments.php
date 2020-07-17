@@ -1,14 +1,12 @@
 <?php
 
 
-namespace jr\ooapi\cli;
+namespace onOffice\Api\Client\Gui\cli;
 
 /**
  * Class CliArguments
  *
  * Read arguments from argv
- *
- * @package jr\ooapi
  *
  */
 

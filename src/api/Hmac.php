@@ -1,7 +1,7 @@
 <?php
 
-namespace jr\ooapi\api;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
+namespace onOffice\Api\Client\Gui\api;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
 
 /**
  * Class Hmac
@@ -9,7 +9,6 @@ use jr\ooapi\dataObjects\RequestWithAuthInfos;
  * Create HMAC for onOffice-API
  *
  * @see https://apidoc.onoffice.de
- * @package jr\ooapi
  */
 
 class Hmac

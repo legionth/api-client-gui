@@ -1,15 +1,13 @@
 <?php
 
-namespace jr\ooapi\api;
+namespace onOffice\Api\Client\Gui\api;
 use Symfony\Component\HttpClient\NativeHttpClient;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
 
 /**
  * Class ApiRequest
  *
  * send requests to onOffice-API
- *
- * @package jr\ooapi
  */
 
 class ApiRequest

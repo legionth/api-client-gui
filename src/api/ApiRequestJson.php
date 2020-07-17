@@ -1,14 +1,12 @@
 <?php
 
-namespace jr\ooapi\api;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
+namespace onOffice\Api\Client\Gui\api;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
 
 /**
  * Class ApiRequestJson
  *
  * create json-request-string from data-objects
- *
- * @package jr\ooapi
  */
 
 class ApiRequestJson

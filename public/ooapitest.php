@@ -1,9 +1,9 @@
 <?php
 
-namespace jr\ooapi;
-use jr\ooapi\api\ApiRequest;
-use jr\ooapi\api\JsonParseException;
-use jr\ooapi\dataObjects\Credentials;
+namespace onOffice\Api\Client\Gui;
+use onOffice\Api\Client\Gui\api\ApiRequest;
+use onOffice\Api\Client\Gui\api\JsonParseException;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
 
 include(__DIR__.'/../vendor/autoload.php');
 

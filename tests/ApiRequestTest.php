@@ -1,26 +1,26 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use jr\ooapi\Config;
-use jr\ooapi\api\ApiRequest;
-use jr\ooapi\api\ApiResponse;
-use jr\ooapi\dataObjects\RequestWithAuthInfos;
-use jr\ooapi\dataObjects\Credentials;
-use jr\ooapi\dataObjects\Resource;
-use jr\ooapi\dataObjects\Action;
-use jr\ooapi\dataObjects\Request;
+use onOffice\Api\Client\Gui\Config;
+use onOffice\Api\Client\Gui\api\ApiRequest;
+use onOffice\Api\Client\Gui\api\ApiResponse;
+use onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos;
+use onOffice\Api\Client\Gui\dataObjects\Credentials;
+use onOffice\Api\Client\Gui\dataObjects\Resource;
+use onOffice\Api\Client\Gui\dataObjects\Action;
+use onOffice\Api\Client\Gui\dataObjects\Request;
 
 /**
- * @covers \jr\ooapi\api\ApiRequest
- * @uses \jr\ooapi\Config
- * @uses \jr\ooapi\dataObjects\Credentials
- * @uses \jr\ooapi\dataObjects\Action
- * @uses \jr\ooapi\dataObjects\Resource
- * @uses \jr\ooapi\dataObjects\RequestWithAuthInfos
- * @uses \jr\ooapi\Hmac
- * @uses \jr\ooapi\ApiResponse
- * @uses \jr\ooapi\ApiRequestJson
- * @uses \jr\ooapi\dataObjects\Request
+ * @covers \onOffice\Api\Client\Gui\api\ApiRequest
+ * @uses \onOffice\Api\Client\Gui\Config
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Credentials
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Action
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Resource
+ * @uses \onOffice\Api\Client\Gui\dataObjects\RequestWithAuthInfos
+ * @uses \onOffice\Api\Client\Gui\Hmac
+ * @uses \onOffice\Api\Client\Gui\ApiResponse
+ * @uses \onOffice\Api\Client\Gui\ApiRequestJson
+ * @uses \onOffice\Api\Client\Gui\dataObjects\Request
  */
 
 class ApiRequestTest extends TestCase

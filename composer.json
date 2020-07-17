@@ -18,6 +18,8 @@
     "phpunit/phpunit": "^8"
   },
   "autoload": {
-    "psr-4": {"jr\\ooapi\\": "src/"}
+    "psr-4": {
+      "onOffice\\Api\\Client\\Gui\\": "src/",
+    }
   }
 }
