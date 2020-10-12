@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "onOffice\\Api\\Client\\Gui\\": "src/",
+      "onOffice\\Api\\Client\\Gui\\": "src/"
     }
   }
 }
