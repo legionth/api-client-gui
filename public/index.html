@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onOffice API-Tester</title>
+    <link type="text/css" href="css/api-tester.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <script src="js/api-tester.js"></script>
+</head>
+<body>
+
+<form method="POST" action="ooapitest.php" name="requestForm">
+    <div class="header">
+        <h1>onOffice API-tester</h1>
+        <div class="readme">
+            <ul>
+                <li>enter api-token + api-secret to authenticate</li>
+                <li>send api-actions and see the result...</li>
+                <li>api-action: { "actionid": [...] }</li>
+            </ul>
+        </div>
+
+        <div class="auth">
+            <label for="token">API-Token <input type="text" name="token" id="token" /></label>
+            <label for="secret">API-Secret <input type="password" name="secret" id="secret" /></label>
+        </div>
+    </div>
+    <div class="messages" id="message">welcome to onOffice API-tester</div>
+
+    <div class="main">
+        <div class="send">
+            <input type="submit" value="send" id="sendRequest" />
+        </div>
+        <div class="request">
+            <textarea id="request" name="request">
+{
+    "actionid": "urn:onoffice-de-ns:smart:2.5:smartml:action:read",
+    "resourceid": "",
+    "identifier": "",
+    "resourcetype": "address",
+    "parameters": {
+        "data": [
+            "Briefanrede",
+            "Vorname",
+            "Name",
+            "Land",
+            "Ort",
+            "Plz",
+            "Strasse"
+        ],
+        "filter": {
+            "Vorname": [
+                {
+                    "op": "=",
+                    "val": "Max"
+                }
+            ]
+        },
+        "sortby": "Strasse",
+        "sortorder": "DESC"
+    }
+}
+
+            </textarea>
+        </div>
+        <div class="response">
+            <pre id="response"></pre>
+        </div>
+    </div>
+</form>
+</body>
+</html>
