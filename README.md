@@ -1,5 +1,5 @@
-# onOffice-api-tester
-test-suite for onOffice API
+# api-client-gui
+GUI test-suite for onOffice API
 
 **Table of Contents**
 * [Requirements](#requirements)
