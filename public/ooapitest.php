@@ -18,7 +18,7 @@ try
     $apiTester = new OnOfficeApiTester(new ApiRequest());
     $apiResponse = $apiTester->send($jsonString, $credentials);
 
-    $message = 'answer from onOffice API:'.PHP_EOL
+    $message = 'Answer from onOffice API:'.PHP_EOL
         .'Status-Code: '.$apiResponse->getCode().PHP_EOL
         .'Error-Code: '.$apiResponse->getErrorCode().PHP_EOL
         .'Message: '.$apiResponse->getMessage().PHP_EOL;

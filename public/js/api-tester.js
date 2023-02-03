@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         event.preventDefault();
         var data = new FormData(requestForm);
         disableSendButton();
-        appendMessage("sending request to onOffice API...");
+        appendMessage("Sending request to onOffice API...");
         httpPost(requestForm.action, data);
     });
 });
